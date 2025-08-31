@@ -1,7 +1,7 @@
 // Simple fetch-based API service for testing
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_BASE_URL = 'http://10.46.61.122:3000/api';
+const API_BASE_URL = 'http://192.168.29.237:3000/api';
 
 // Simple fetch wrapper
 const apiRequest = async (endpoint, options = {}) => {

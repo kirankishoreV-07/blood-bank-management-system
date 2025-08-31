@@ -46,6 +46,7 @@ Thumbs.db
 # Logs
 logs/
 *.log
+server.log
 
 # Runtime data
 pids/
@@ -88,3 +89,31 @@ Thumbs.db
 *.bak
 *.backup
 *.old
+
+# Development/Test files (prevent future clutter)
+**/test_*.js
+**/fix_*.js
+**/fix_*.sql
+**/setup_*.js
+**/demo_*.js
+**/simple_*.js
+**/create_*.js
+**/deploy_*.js
+**/migrate_*.js
+**/generate_*.js
+**/update_*.js
+**/*_test.js
+**/*_fix.js
+**/*_setup.js
+**/*_demo.js
+**/CORRECTED_*.sql
+**/ENHANCED_*.sql
+**/DEPLOY_*.sql
+**/SUPABASE_*.sql
+**/*_schema.sql
+**/complete_*.sql
+**/comprehensive_*.sql
+**/*FIX*.md
+**/*SOLUTION*.md
+**/*SUMMARY*.md
+*.sh

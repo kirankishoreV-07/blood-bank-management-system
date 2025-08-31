@@ -4,7 +4,11 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // Base API URL - Multiple options for different network configurations
 // Try different IP addresses based on your network setup
 const API_ENDPOINTS = [
-  'http://192.168.29.212:3000/api',   // Current working IP (August 24, 2025 - FIXED PORT 3000)
+  'http://192.168.29.237:3000/api',   // Current working IP (August 31, 2025 - FIXED PORT 3000)
+  'http://10.12.87.71:3000/api',      // Previous IP
+  'http://10.12.85.87:3000/api',      // Previous IP
+  'http://10.12.85.63:3000/api',      // Previous IP
+  'http://192.168.29.212:3000/api',   // Previous IP
   'http://10.12.87.10:3000/api',      // Previous IP
   'http://10.46.61.122:3000/api',     // Previous IP
   'http://localhost:3000/api',        // Localhost for simulator
@@ -16,7 +20,11 @@ const testConnectivity = async () => {
   console.log('🧪 Starting comprehensive connectivity test...');
   
   const testEndpoints = [
-    'http://192.168.29.212:3000/api/network-test', // Current working IP (FIXED PORT 3000)
+    'http://192.168.29.237:3000/api/network-test', // Current working IP (FIXED PORT 3000)
+    'http://10.12.87.71:3000/api/network-test',    // Previous IP
+    'http://10.12.85.87:3000/api/network-test',    // Previous IP
+    'http://10.12.85.63:3000/api/network-test',    // Previous IP
+    'http://192.168.29.212:3000/api/network-test', // Previous IP
     'http://10.12.87.10:3000/api/network-test',    // Previous IP
     'http://10.46.61.122:3000/api/network-test',   // Previous IP
     'http://localhost:3000/api/network-test',       // Localhost for simulator

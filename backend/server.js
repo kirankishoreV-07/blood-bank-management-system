@@ -2213,7 +2213,7 @@ app.get('/api/debug/donations', async (req, res) => {
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🩸 Blood Bank API Server running on port ${PORT}`);
-    console.log(`🌐 Server accessible at: http://192.168.29.212:${PORT}`);
+    console.log(`🌐 Server accessible at: http://192.168.29.237:${PORT}`);
     console.log(`🔗 Supabase URL: ${supabaseUrl}`);
 });
 
